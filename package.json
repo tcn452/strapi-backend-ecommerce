@@ -1,0 +1,37 @@
+{
+  "name": "e-commerce",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.4.5",
+    "@strapi/plugin-i18n": "4.4.5",
+    "@strapi/plugin-users-permissions": "4.4.5",
+    "@strapi/provider-email-nodemailer": "^4.4.5",
+    "@strapi/strapi": "4.4.3",
+    "mysql": "2.18.1",
+    "paypal-rest-sdk": "^1.8.1",
+    "strapi-plugin-preview-button": "^1.0.0",
+    "strapi-plugin-ratings": "^1.1.8",
+    "strapi-plugin-slugify": "^2.2.3",
+    "strapi-plugin-transformer": "^2.1.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "9e93d852-6688-4571-9d20-ff4207294af7"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
